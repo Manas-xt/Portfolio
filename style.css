@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 @media(max-width:447px){
     #contact{
         margin-top: 5px;
