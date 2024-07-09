@@ -1,0 +1,11 @@
+@media(max-width:447px){
+    #contact{
+        margin-top: 5px;
+    }
+}
+@media(max-width:1023px){
+    #button{
+        margin-top: 20px;
+        
+    }
+}
