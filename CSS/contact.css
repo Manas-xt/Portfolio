@@ -15,7 +15,7 @@ body{
     align-items: center;
 }
 .heading h1{
-    transform: translateY(5px);
+    margin-top: 6px;
 }
 .heading span{
     background-color:black;
