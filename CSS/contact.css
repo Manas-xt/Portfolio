@@ -92,11 +92,16 @@ body{
         flex: 0 0 250px;
     }
 }
-@media(max-width:720px){
-    .box2{
-        transform: translateY(0px);
-    }
-}
 .icon a{
     text-decoration: none;
 }
+@media(max-width:1222px){
+    .box2{
+        transform: translateY(-77px);
+    }
+}
+ @media(max-width:720px){
+        .box2{
+            transform: translateY(0px);
+        }
+    }

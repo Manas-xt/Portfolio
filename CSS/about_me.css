@@ -1,3 +1,28 @@
 body{
     background-color: black;
 }
+@media(max-width:767px){
+    #heading{
+        padding-bottom: 40px;
+    }
+}
+#hello:hover{
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
+}
+#sec:hover{
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
+}
+#third:hover{
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
+}
+#four:hover{
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
+}
+#five:hover{
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
+}
