@@ -1,7 +1,7 @@
 
       document.addEventListener('DOMContentLoaded', function() {
         const loadingScreen = document.getElementById('loading-screen');
-        const minLoadTime = 3000; // Minimum loading time in milliseconds (3 seconds)
+        const minLoadTime = 2000; // Minimum loading time in milliseconds (3 seconds)
         const startTime = Date.now();
     
         function hideLoadingScreen() {
