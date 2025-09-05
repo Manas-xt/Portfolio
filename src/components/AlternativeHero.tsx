@@ -131,7 +131,7 @@ export default function AlternativeHero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              Hey, I'm{' '}
+              Hey, I&apos;m{' '}
               <motion.span
                 className="bg-gradient-to-r from-emerald-400 via-cyan-500 to-blue-500 bg-clip-text text-transparent"
                 animate={{
@@ -187,7 +187,7 @@ export default function AlternativeHero() {
               </motion.span>
             </div>
             <p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed font-outfit mb-8">
-              I don't just write code—I craft experiences that make people say "wow!" 
+              I don&apos;t just write code—I craft experiences that make people say &ldquo;wow!&rdquo; 
               From sleek frontends to robust backends, I turn coffee into innovative solutions. ☕ → 💻
             </p>
             
@@ -274,7 +274,7 @@ export default function AlternativeHero() {
               className="group border-2 border-gray-600 text-gray-300 hover:border-emerald-400 hover:text-emerald-400 px-8 py-4 text-lg font-bold rounded-2xl transition-all duration-300 backdrop-blur-sm"
             >
               <span className="flex items-center gap-2">
-                💬 Let's Chat 
+                💬 Let&apos;s Chat 
                 <motion.span
                   animate={{ rotate: [0, 15, 0] }}
                   transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}

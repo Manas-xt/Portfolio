@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 interface GitHubStats {
   public_repos: number
@@ -144,10 +145,13 @@ export default function GitHubSection() {
           <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
             <h4 className="text-lg font-bold text-white mb-4 text-center">GitHub Statistics</h4>
             <div className="flex justify-center">
-              <img 
+              <Image 
                 src={`https://github-readme-stats.vercel.app/api?username=${username}&theme=dark&hide_border=true&include_all_commits=false&count_private=false`}
                 alt="GitHub Stats"
                 className="rounded-lg max-w-full h-auto"
+                width={400}
+                height={200}
+                unoptimized
               />
             </div>
           </div>
@@ -155,10 +159,13 @@ export default function GitHubSection() {
           <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
             <h4 className="text-lg font-bold text-white mb-4 text-center">Contribution Streak</h4>
             <div className="flex justify-center">
-              <img 
+              <Image 
                 src={`https://nirzak-streak-stats.vercel.app/?user=${username}&theme=dark&hide_border=true`}
                 alt="GitHub Streak"
                 className="rounded-lg max-w-full h-auto"
+                width={400}
+                height={200}
+                unoptimized
               />
             </div>
           </div>
@@ -166,10 +173,13 @@ export default function GitHubSection() {
           <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
             <h4 className="text-lg font-bold text-white mb-4 text-center">Most Used Languages</h4>
             <div className="flex justify-center">
-              <img 
+              <Image 
                 src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact`}
                 alt="Top Languages"
                 className="rounded-lg max-w-full h-auto"
+                width={400}
+                height={300}
+                unoptimized
               />
             </div>
           </div>
@@ -177,10 +187,13 @@ export default function GitHubSection() {
           <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
             <h4 className="text-lg font-bold text-white mb-4 text-center">Top Contributed Repositories</h4>
             <div className="flex justify-center">
-              <img 
+              <Image 
                 src={`https://github-contributor-stats.vercel.app/api?username=${username}&limit=5&theme=dark&combine_all_yearly_contributions=true`}
                 alt="Top Contributed Repositories"
                 className="rounded-lg max-w-full h-auto"
+                width={400}
+                height={300}
+                unoptimized
               />
             </div>
           </div>

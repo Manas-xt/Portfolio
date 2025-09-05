@@ -247,7 +247,7 @@ export default function ProjectsSection() {
               Interested in Collaboration?
             </h3>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto font-outfit">
-              Let's work together to build innovative solutions that solve real-world problems.
+              Let&apos;s work together to build innovative solutions that solve real-world problems.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button 

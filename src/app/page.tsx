@@ -41,10 +41,10 @@ export default function Home() {
       <section id="contact" className="py-20 px-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 bg-gradient-to-r from-emerald-400 to-cyan-500 bg-clip-text text-transparent font-display">
-            Let's Build Something Amazing Together
+            Let&apos;s Build Something Amazing Together
           </h2>
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto font-outfit">
-            Ready to bring your ideas to life? I'm always excited to collaborate on innovative projects and explore new technologies.
+            Ready to bring your ideas to life? I&apos;m always excited to collaborate on innovative projects and explore new technologies.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
