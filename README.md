@@ -49,8 +49,8 @@ A modern, interactive portfolio website featuring 3D animations, deep personal i
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/manaskumar/portfolio.git
-   cd portfolio
+   git clone https://github.com/Manas-xt/Portfolio.git
+   cd Portfolio
    ```
 
 2. **Install dependencies**:
@@ -96,7 +96,7 @@ npm run lint
 
 - **Website**: [manaskumar.tech](https://manaskumar.tech)
 - **Email**: hello@manaskumar.tech
-- **GitHub**: [@manaskumar](https://github.com/manaskumar)
+- **GitHub**: [@Manas-xt](https://github.com/Manas-xt)
 - **LinkedIn**: [/in/manaskumar](https://linkedin.com/in/manaskumar)
 
 ## 📄 License
