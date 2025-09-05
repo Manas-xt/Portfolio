@@ -1,13 +1,24 @@
+'use client';
+
+import { useState, useEffect } from 'react';
 import AlternativeHero from '@/components/AlternativeHero'
 import AboutSection from '@/components/AboutSection'
 import ProjectsSection from '@/components/ProjectsSection'
 import FloatingNavbar from '@/components/FloatingNavbar'
 import GitHubSection from '@/components/GitHubSection'
 import CustomCursor from '@/components/CustomCursor'
+import LoadingScreen from '@/components/LoadingScreen'
+import { useLoading } from '@/hooks/useLoading'
 
 export default function Home() {
+  const { isLoading, completeLoading } = useLoading(2000); // Reduced to 2 seconds
+
+  if (isLoading) {
+    return <LoadingScreen onLoadingComplete={completeLoading} />;
+  }
+
   return (
-    <main className="min-h-screen bg-black overflow-x-hidden">
+    <main className="min-h-screen bg-black overflow-x-hidden animate-fadeIn">
       <CustomCursor />
       <FloatingNavbar />
       
